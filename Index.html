@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="juxtapose/css/juxtapose.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* 100% viewport height */
+            margin: 0; /* Remove default margin */
+            padding: 20%;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .juxtapose {
+            width: 640px; /* Set the width to 640 pixels */
+            max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+        }
+
+        img {
+            max-width: 100%; /* Make sure the images don't exceed their container width */
+            height: auto; /* Maintain the aspect ratio of the images */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="juxtapose" data-startingposition="20%"  data-animate="true" stype="width:15.1%">
+        <img src="img/a.jpg" data-label="Before" data-credit="CSSScript Before" alt="Before">
+        <img src="img/b.jpg" data-label="After" data-credit="CSSScript After" alt="After">
+      </div>
+</body>
+
+<script src="juxtapose/js/juxtapose.js"></script>
+</html>
