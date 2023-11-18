@@ -1,3 +1,6 @@
+<img src="https://raw.githubusercontent.com/mmeest/Compare-images-with-Juxtapose/master/screen.gif" width="300px">
+
+
 # JuxtaposeJS
 
 [JuxtaposeJS][https://juxtapose.knightlab.com] is a simple, open source tool for creating before/after image sliders. Just provide two image URLs and Juxtapose will do the rest of the work for you. Below are instructions for implementing Juxtapose with HTML and Javascript but we also have a [tool that lets you make a slider without needing to know any code](https://juxtapose.knightlab.com#create-new).
